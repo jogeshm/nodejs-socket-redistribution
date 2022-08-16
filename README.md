@@ -7,6 +7,10 @@ To read more about BITBNS
 https://bitbns.com/
 https://github.com/bitbns-official/
 
+# Once you clone the project, use below commands to start 
+npm install
+npm run main
+
 # To open socket connection
 # Open chrome browser (http://localhost:3005/main.html) > Developer tools > console 
 const socket = io('http://localhost:3005');
