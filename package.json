@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-socket-redistribution",
+  "version": "1.0.0",
+  "description": "Receive socket data from any source like Zerodha / BITBNS exchanges and redistribute transformed data to your clients. Spoke-and-Hub-and-Spoke model",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jogeshm/nodejs-socket-redistribution.git"
+  },
+  "keywords": [
+    "socket"
+  ],
+  "author": "Jogesh Malapaka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jogeshm/nodejs-socket-redistribution/issues"
+  },
+  "homepage": "https://github.com/jogeshm/nodejs-socket-redistribution#readme",
+  "dependencies": {
+    "bitbns": "^3.0.35",
+    "express": "^4.18.1",
+    "http": "^0.0.1-security",
+    "path": "^0.12.7",
+    "socket.io": "^4.5.1"
+  }
+}
